@@ -1,7 +1,7 @@
 <footer class="sticky-footer bg-white">
   <div class="container my-auto">
     <div class="copyright text-center my-auto">
-      <span>Copyright © Your Website 2021</span>
+      <span>&copy; {{ date('Y') }} WargaKita &mdash; RT 09 / RW 10, Citra Indah City, Bukit Angsana</span>
     </div>
   </div>
 </footer>

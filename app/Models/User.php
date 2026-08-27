@@ -47,4 +47,14 @@ class User extends Authenticatable
             'password' => 'hashed',
         ];
     }
+
+    public function warga()
+    {
+        return $this->hasOne(Warga::class);
+    }
+
+    public function isAdmin(): bool
+    {
+        return $this->level === 'Admin';
+    }
 }

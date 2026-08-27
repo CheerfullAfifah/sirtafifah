@@ -1,0 +1,158 @@
+/* ===== WargaKita Theme — Pink to White Gradient ===== */
+:root {
+    --wk-pink-dark: #d6336c;
+    --wk-pink: #ff6fa5;
+    --wk-pink-light: #ffb6d5;
+    --wk-pink-pale: #fff0f6;
+    --wk-white: #ffffff;
+}
+
+body {
+    background: linear-gradient(160deg, #fff0f6 0%, #ffffff 55%, #fff5f9 100%);
+    font-family: 'Nunito', sans-serif;
+}
+
+/* Sidebar */
+.sidebar.bg-gradient-primary,
+#accordionSidebar.bg-gradient-primary {
+    background: linear-gradient(180deg, var(--wk-pink-dark) 0%, var(--wk-pink) 55%, var(--wk-pink-light) 100%) !important;
+}
+
+.sidebar .nav-item .nav-link {
+    color: rgba(255, 255, 255, 0.9);
+}
+
+.sidebar .nav-item .nav-link:hover,
+.sidebar .nav-item.active .nav-link,
+.sidebar .nav-item .nav-link:focus {
+    color: #ffffff;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.sidebar-brand-text,
+.sidebar .sidebar-brand-icon {
+    color: #ffffff !important;
+}
+
+.sidebar hr.sidebar-divider {
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+}
+
+.sidebar-card {
+    background: rgba(255, 255, 255, 0.15);
+}
+
+/* Topbar */
+.topbar {
+    background: #ffffff !important;
+    border-bottom: 1px solid #ffe3ee;
+}
+
+.topbar .navbar-search input {
+    background-color: var(--wk-pink-pale) !important;
+}
+
+/* Buttons */
+.btn-primary {
+    background: linear-gradient(90deg, var(--wk-pink-dark), var(--wk-pink)) !important;
+    border-color: var(--wk-pink) !important;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+    background: linear-gradient(90deg, #b0224f, var(--wk-pink-dark)) !important;
+    border-color: var(--wk-pink-dark) !important;
+}
+
+.btn-user {
+    border-radius: 10rem;
+}
+
+/* Cards */
+.card {
+    border: none;
+    border-radius: 0.9rem;
+    box-shadow: 0 0.35rem 1.2rem 0 rgba(214, 51, 108, 0.12);
+}
+
+.card-header {
+    background-color: var(--wk-white);
+    border-bottom: 1px solid #ffe3ee;
+    border-radius: 0.9rem 0.9rem 0 0 !important;
+}
+
+.text-primary {
+    color: var(--wk-pink-dark) !important;
+}
+
+.border-left-primary {
+    border-left: 0.25rem solid var(--wk-pink) !important;
+}
+
+.border-left-success {
+    border-left: 0.25rem solid #37c9a0 !important;
+}
+
+.border-left-warning {
+    border-left: 0.25rem solid #ffc857 !important;
+}
+
+.border-left-danger {
+    border-left: 0.25rem solid #ff6f91 !important;
+}
+
+/* Badges / status pill */
+.badge-wk {
+    padding: 0.4em 0.9em;
+    border-radius: 10rem;
+    font-weight: 600;
+    font-size: 0.78rem;
+}
+
+.badge-wk-pink { background-color: #ffe0ec; color: var(--wk-pink-dark); }
+.badge-wk-green { background-color: #d9f7ec; color: #12876a; }
+.badge-wk-yellow { background-color: #fff3d6; color: #a87400; }
+.badge-wk-red { background-color: #ffe1e7; color: #c62839; }
+.badge-wk-gray { background-color: #f1f1f4; color: #6c6c72; }
+
+/* Login / register background */
+.bg-wk-gradient {
+    background: linear-gradient(135deg, var(--wk-pink-dark) 0%, var(--wk-pink) 45%, #ffffff 100%);
+}
+
+.bg-wk-side {
+    background: linear-gradient(160deg, var(--wk-pink) 0%, var(--wk-pink-light) 100%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bg-wk-side i {
+    font-size: 6rem;
+    color: rgba(255, 255, 255, 0.85);
+}
+
+/* Footer */
+.sticky-footer {
+    background: #ffffff !important;
+    border-top: 1px solid #ffe3ee;
+}
+
+a {
+    color: var(--wk-pink-dark);
+}
+
+a:hover {
+    color: #b0224f;
+}
+
+.table thead th {
+    background-color: var(--wk-pink-pale);
+    color: var(--wk-pink-dark);
+    border-color: #ffe3ee;
+}
+
+.form-control:focus {
+    border-color: var(--wk-pink);
+    box-shadow: 0 0 0 0.2rem rgba(255, 111, 165, 0.25);
+}
